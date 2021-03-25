@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="OpenCart Test Suite" thread-count="2" parallel="tests">
+	
+	<test name="Chrome tests">
+	<prameter name ="browser" Value = "chrome"/>
+		<classes>
+			<class name=" TestCases.TC_001_AccountRegistration"/>
+		</classes>
+	</test>
+	
+	<test name="Edge tests">
+	<prameter name ="browser" Value = "Edge"/>
+		<classes>
+			<class name=" TestCases.TC_001_AccountRegistration"/>
+		</classes>
+	</test>
+	
+	<test name="Firefox tests">
+	<prameter name ="browser" Value = "Firefox"/>
+		<classes>
+			<class name=" TestCases.TC_001_AccountRegistration"/>
+		</classes>
+	</test>
+	
+</suite>
+
+
+
+
+
+
+

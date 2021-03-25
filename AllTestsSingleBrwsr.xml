@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name ="OpenCart Test Suite" thread-count="2" >
+
+<listeners>
+	<listener class-name="Utilities.ExtentReportManager"/>
+</listeners>
+	
+	<test name="OprnCart tests">
+	<parameter name ="browser" value ="chrome"/>
+		<classes>
+			<class name="TestCases.TC_001_AccountRegistration"/>
+			<class name="TestCases.TC_002_Login"/> 
+		</classes>
+	</test>
+	
+	
+	
+</suite>
+
+
+
+
+
+
+
