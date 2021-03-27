@@ -1,0 +1,11 @@
+TestCases\TC_003_4gotPaswrd.class
+PageObjects\ForgotPassword.class
+TestBase\BaseCase_Reusable.class
+PageObjects\AccountRegistrationPage.class
+TestCases\TC_002_Login.class
+Utilities\XLUtility.class
+PageObjects\HomePage.class
+TestCases\TC_001_AccountRegistration.class
+PageObjects\MyAccountPage.class
+PageObjects\LoginPage.class
+Utilities\ExtentReportManager.class

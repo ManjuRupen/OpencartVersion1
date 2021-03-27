@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="OpenCart Test Suite" duration-ms="15728" started-at="2021-03-26T18:17:04 PDT" finished-at="2021-03-26T18:17:20 PDT">
+  <suite name="OpenCart Test Suite" duration-ms="29770" started-at="2021-03-26T18:54:05 PDT" finished-at="2021-03-26T18:54:35 PDT">
     <groups>
     </groups>
-    <test name="OprnCart tests" duration-ms="15728" started-at="2021-03-26T18:17:04 PDT" finished-at="2021-03-26T18:17:20 PDT">
-      <class name="TestCases.TC_002_Login">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_002_Login@23d2a7e8]" name="setup" is-config="true" duration-ms="1295" started-at="2021-03-26T18:17:14 PDT" finished-at="2021-03-26T18:17:16 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_login()[pri:0, instance:TestCases.TC_002_Login@23d2a7e8]" name="test_login" duration-ms="4348" started-at="2021-03-26T18:17:16 PDT" finished-at="2021-03-26T18:17:20 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_002_Login@23d2a7e8]" name="tearDown" is-config="true" duration-ms="131" started-at="2021-03-26T18:17:20 PDT" finished-at="2021-03-26T18:17:20 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC_002_Login -->
+    <test name="OprnCart tests" duration-ms="29770" started-at="2021-03-26T18:54:05 PDT" finished-at="2021-03-26T18:54:35 PDT">
       <class name="TestCases.TC_001_AccountRegistration">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_001_AccountRegistration@687080dc]" name="setup" is-config="true" duration-ms="4446" started-at="2021-03-26T18:17:05 PDT" finished-at="2021-03-26T18:17:09 PDT">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_001_AccountRegistration@27a5f880]" name="setup" is-config="true" duration-ms="4799" started-at="2021-03-26T18:54:06 PDT" finished-at="2021-03-26T18:54:10 PDT">
           <params>
             <param index="0">
               <value>
@@ -39,15 +18,119 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_account_registration()[pri:0, instance:TestCases.TC_001_AccountRegistration@687080dc]" name="test_account_registration" duration-ms="5009" started-at="2021-03-26T18:17:09 PDT" finished-at="2021-03-26T18:17:14 PDT">
+        <test-method status="FAIL" signature="test_account_registration()[pri:0, instance:TestCases.TC_001_AccountRegistration@27a5f880]" name="test_account_registration" duration-ms="11226" started-at="2021-03-26T18:54:10 PDT" finished-at="2021-03-26T18:54:22 PDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at TestCases.TC_001_AccountRegistration.test_account_registration(TC_001_AccountRegistration.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_registration -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_001_AccountRegistration@687080dc]" name="tearDown" is-config="true" duration-ms="84" started-at="2021-03-26T18:17:14 PDT" finished-at="2021-03-26T18:17:14 PDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_001_AccountRegistration@27a5f880]" name="tearDown" is-config="true" duration-ms="57" started-at="2021-03-26T18:54:22 PDT" finished-at="2021-03-26T18:54:22 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC_001_AccountRegistration -->
+      <class name="TestCases.TC_002_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_002_Login@1d29cf23]" name="setup" is-config="true" duration-ms="1218" started-at="2021-03-26T18:54:22 PDT" finished-at="2021-03-26T18:54:23 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="test_login()[pri:0, instance:TestCases.TC_002_Login@1d29cf23]" name="test_login" duration-ms="11923" started-at="2021-03-26T18:54:23 PDT" finished-at="2021-03-26T18:54:35 PDT">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.fail(Assert.java:95)
+at TestCases.TC_002_Login.test_login(TC_002_Login.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_002_Login@1d29cf23]" name="tearDown" is-config="true" duration-ms="55" started-at="2021-03-26T18:54:35 PDT" finished-at="2021-03-26T18:54:35 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_002_Login -->
     </test> <!-- OprnCart tests -->
   </suite> <!-- OpenCart Test Suite -->
 </testng-results>

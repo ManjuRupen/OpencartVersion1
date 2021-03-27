@@ -7,3 +7,6 @@ C:\Users\rupen\eclipse-workspace\firstprogram\seleniumwebdriver\OpencartVersion1
 C:\Users\rupen\eclipse-workspace\firstprogram\seleniumwebdriver\OpencartVersion1\src\test\java\TestBase\BaseCase_Reusable.java
 C:\Users\rupen\eclipse-workspace\firstprogram\seleniumwebdriver\OpencartVersion1\src\test\java\TestCases\TC_002_Login.java
 C:\Users\rupen\eclipse-workspace\firstprogram\seleniumwebdriver\OpencartVersion1\src\test\java\PageObjects\AccountRegistrationPage.java
+C:\Users\rupen\eclipse-workspace\firstprogram\seleniumwebdriver\OpencartVersion1\src\test\java\TestCases\TC_003_4gotPaswrd.java
+C:\Users\rupen\eclipse-workspace\firstprogram\seleniumwebdriver\OpencartVersion1\src\test\java\PageObjects\ForgotPassword.java
+C:\Users\rupen\eclipse-workspace\firstprogram\seleniumwebdriver\OpencartVersion1\src\test\java\TestCases\TC_PullingTestFrmGitHub2Xlips.java
